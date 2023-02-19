@@ -1,0 +1,12 @@
+list_int = list(map(int, input().split(", ")))
+group_of_10s = list(filter(lambda x: x <= 10, list_int))
+group_of_20s = list(filter(lambda x: 10 < x <= 20, list_int))
+group_of_30s = list(filter(lambda x: 20 < x <= 30, list_int))
+group_of_40s = list(filter(lambda x: 30 < x <= 40, list_int))
+group_of_50s = list(filter(lambda x: 40 < x <= 50, list_int))
+
+print(f"Group of 10's: {group_of_10s}")
+print(f"Group of 20's: {group_of_20s}")
+print(f"Group of 30's: {group_of_30s}")
+print(f"Group of 40's: {group_of_40s}")
+print(f"Group of 50's: {group_of_50s}")
